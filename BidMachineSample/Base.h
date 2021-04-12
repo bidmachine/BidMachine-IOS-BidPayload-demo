@@ -4,6 +4,7 @@
 //
 
 #import "AppDelegate.h"
+#import "BidPayloadDefines.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		374B363025E6829C005F1499 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374B362F25E6829C005F1499 /* Empty.swift */; };
+		37FA4EBF2624562B00B7FC32 /* Rewarded.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FA4EBE2624562B00B7FC32 /* Rewarded.m */; };
+		37FA4EC326245A0900B7FC32 /* BidPayloadDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FA4EC226245A0900B7FC32 /* BidPayloadDefines.m */; };
 		65693AF12390F700007B0D33 /* BaseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65693AEE2390F700007B0D33 /* BaseView.xib */; };
 		65693AF22390F700007B0D33 /* Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 65693AEF2390F700007B0D33 /* Base.m */; };
 		65693AFC2390F740007B0D33 /* Banner.m in Sources */ = {isa = PBXBuildFile; fileRef = 65693AF42390F73F007B0D33 /* Banner.m */; };
@@ -24,6 +26,10 @@
 		302B23DFF18738DC370464DA /* Pods-BidMachineSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BidMachineSample.release.xcconfig"; path = "Target Support Files/Pods-BidMachineSample/Pods-BidMachineSample.release.xcconfig"; sourceTree = "<group>"; };
 		374B361E25E68237005F1499 /* BidMachineSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BidMachineSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		374B362F25E6829C005F1499 /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
+		37FA4EBD2624562B00B7FC32 /* Rewarded.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rewarded.h; sourceTree = "<group>"; };
+		37FA4EBE2624562B00B7FC32 /* Rewarded.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rewarded.m; sourceTree = "<group>"; };
+		37FA4EC126245A0900B7FC32 /* BidPayloadDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BidPayloadDefines.h; sourceTree = "<group>"; };
+		37FA4EC226245A0900B7FC32 /* BidPayloadDefines.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BidPayloadDefines.m; sourceTree = "<group>"; };
 		4807EF81E35DB2CCE84F6662 /* Pods-BidMachineSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BidMachineSample.debug.xcconfig"; path = "Target Support Files/Pods-BidMachineSample/Pods-BidMachineSample.debug.xcconfig"; sourceTree = "<group>"; };
 		4A253D8D5A898969DA887336 /* libPods-BidMachineSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BidMachineSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65693AEE2390F700007B0D33 /* BaseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseView.xib; sourceTree = "<group>"; };
@@ -60,6 +66,8 @@
 				65693AED2390F6D3007B0D33 /* Base */,
 				65693AF62390F740007B0D33 /* Interstitial.h */,
 				65693AF92390F740007B0D33 /* Interstitial.m */,
+				37FA4EBD2624562B00B7FC32 /* Rewarded.h */,
+				37FA4EBE2624562B00B7FC32 /* Rewarded.m */,
 				65693AF72390F740007B0D33 /* Banner.h */,
 				65693AF42390F73F007B0D33 /* Banner.m */,
 			);
@@ -111,6 +119,8 @@
 		D96190F2222957C50057C11A /* BidMachineSample */ = {
 			isa = PBXGroup;
 			children = (
+				37FA4EC126245A0900B7FC32 /* BidPayloadDefines.h */,
+				37FA4EC226245A0900B7FC32 /* BidPayloadDefines.m */,
 				D96190F3222957C50057C11A /* AppDelegate.h */,
 				D96190F4222957C50057C11A /* AppDelegate.m */,
 				65693AEC2390F6BA007B0D33 /* AdControllers */,
@@ -230,6 +240,8 @@
 				374B363025E6829C005F1499 /* Empty.swift in Sources */,
 				D9619103222957C60057C11A /* main.m in Sources */,
 				65693AFD2390F740007B0D33 /* Interstitial.m in Sources */,
+				37FA4EC326245A0900B7FC32 /* BidPayloadDefines.m in Sources */,
+				37FA4EBF2624562B00B7FC32 /* Rewarded.m in Sources */,
 				D96190F5222957C50057C11A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

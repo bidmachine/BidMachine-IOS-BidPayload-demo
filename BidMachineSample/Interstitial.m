@@ -16,6 +16,7 @@
 
 - (void)loadAd:(id)sender {
     self.request = BDMInterstitialRequest.new;
+    self.request.bidPayload = BDMInterstiitalPayloadString;
     [self.request performWithDelegate:self];
 }
 

@@ -23,6 +23,10 @@
 - (void)loadAd:(id)sender {
     self.request = BDMBannerRequest.new;
     self.request.adSize = BDMBannerAdSize320x50;
+    self.request.bidPayload = BDMBanner320PayloadString;
+//    MREC
+//    self.request.adSize = BDMBannerAdSize300x250;
+//    self.request.bidPayload = BDMBanner300PayloadString;
     [self.request performWithDelegate:self];
 }
 
