@@ -2,6 +2,22 @@
 
 # BidMachine IOS BidPayload demo
 
+### Getting Started
+
+##### Add following lines into your project Podfile
+
+> **_NOTE:_** The beta version of the SDK is used, so you need to connect the private repository as well
+
+```ruby
+source 'https://github.com/appodeal/CocoaPods.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'Target' do
+  project 'Project.xcodeproj'
+  pod "BDMIABAdapter", '~> 1.7.2.0'
+end
+```
+
 ### Initialize SDK
 
 ```objc
