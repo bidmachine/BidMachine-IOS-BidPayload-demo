@@ -6,11 +6,7 @@
 
 ##### Add following lines into your project Podfile
 
-> **_NOTE:_** The beta version of the SDK is used, so you need to connect the private repository as well
-
 ```ruby
-source 'https://github.com/appodeal/CocoaPods.git'
-source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Target' do
   project 'Project.xcodeproj'
