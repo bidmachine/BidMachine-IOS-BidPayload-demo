@@ -4,7 +4,7 @@ install! 'cocoapods', :deterministic_uuids => false, :warn_for_multiple_pod_sour
 source 'https://github.com/appodeal/CocoaPods.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
-$BDMVersion = '~> 1.7.2.0'
+$BDMVersion = '~> 1.7.3.0'
 
 def bidmachine
   pod "BDMIABAdapter", $BDMVersion

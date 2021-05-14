@@ -14,7 +14,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Target' do
   project 'Project.xcodeproj'
-  pod "BDMIABAdapter", '~> 1.7.2.0'
+  pod "BDMIABAdapter", '~> 1.7.3.0'
 end
 ```
 
